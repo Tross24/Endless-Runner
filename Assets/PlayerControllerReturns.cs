@@ -10,11 +10,18 @@ public class Playermovement2 : MonoBehaviour
     public float checkRadius = 0.2f;
     public LayerMask groundLayer;
 
+    public AudioClip jump;
+    public AudioClip backgroundMusic;
+    public AudioSource sfxPlayer;
+    public AudioSource musicPlayer;
+
+
     private Rigidbody2D rb;
     private bool isGrounded;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        sfxPlayer = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -24,6 +31,7 @@ public class Playermovement2 : MonoBehaviour
         if (isGrounded && Input.GetKeyDown(KeyCode.Space))
         {
             Jump();
+            sfxPlayer.PlayOneShot(jump);   
         }
     }
 
@@ -37,4 +45,6 @@ public class Playermovement2 : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(groundCheckPoint.position, checkRadius);
     }
+    
+    
 }

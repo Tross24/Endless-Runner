@@ -11,7 +11,7 @@ public class Parralax : MonoBehaviour
     public float speed = 0.5f;
     void Start()
     {
-        player = GameObject.Find("Character");
+        player = GameObject.Find("Player");
         rend = GetComponent<Renderer>();
         playerStartpos = player.transform.position.x;
     }

@@ -15,17 +15,21 @@ public class Playermovement2 : MonoBehaviour
     public AudioSource sfxPlayer;
     public AudioSource musicPlayer;
 
+    Animator anim;
 
     private Rigidbody2D rb;
     private bool isGrounded;
     void Start()
     {
+        anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         sfxPlayer = GetComponent<AudioSource>();
     }
 
     void Update()
     {
+        anim.SetFloat("Speed", Mathf.Abs(moveSpeed));
+        anim.SetBool("IsOnGround", isGrounded);
         rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
         isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, checkRadius, groundLayer);
         if (isGrounded && Input.GetKeyDown(KeyCode.Space))

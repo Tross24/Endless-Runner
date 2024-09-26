@@ -31,6 +31,7 @@ public class Playermovement2 : MonoBehaviour
         anim.SetFloat("Speed", Mathf.Abs(moveSpeed));
         anim.SetBool("IsOnGround", isGrounded);
         rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
+       
         isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, checkRadius, groundLayer);
         if (isGrounded && Input.GetKeyDown(KeyCode.Space))
         {

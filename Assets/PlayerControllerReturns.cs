@@ -28,7 +28,6 @@ public class Playermovement2 : MonoBehaviour
 
     void Update()
     {
-        anim.SetFloat("Speed", Mathf.Abs(moveSpeed));
         anim.SetBool("IsOnGround", isGrounded);
         rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
        
@@ -36,7 +35,8 @@ public class Playermovement2 : MonoBehaviour
         if (isGrounded && Input.GetKeyDown(KeyCode.Space))
         {
             Jump();
-            sfxPlayer.PlayOneShot(jump);   
+            sfxPlayer.PlayOneShot(jump);
+            anim.SetTrigger("Jump");
         }
     }
 

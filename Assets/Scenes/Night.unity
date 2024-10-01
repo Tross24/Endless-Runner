@@ -1254,7 +1254,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   jump: {fileID: 8300000, guid: 1c91d8c9a9d6b9a48b40b0e1e90255a6, type: 3}
-  backgroundMusic: {fileID: 8300000, guid: 1c91d8c9a9d6b9a48b40b0e1e90255a6, type: 3}
+  backgroundMusic: {fileID: 8300000, guid: 6410be001ca890945a5f4a69c124e4a3, type: 3}
   sfxPlayer: {fileID: 0}
   musicPlayer: {fileID: 0}
 --- !u!82 &873876803

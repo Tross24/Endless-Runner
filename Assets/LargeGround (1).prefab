@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8758884885034976747}
   - component: {fileID: 1009788688348621445}
   - component: {fileID: 1724394607840592485}
+  - component: {fileID: -2224169944663410969}
   m_Layer: 3
   m_Name: LargeGround (1)
   m_TagString: Clean Up
@@ -176,3 +177,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &-2224169944663410969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9168713802653686971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ef10e9faa9156f44ab24c5ba3e73196, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinPrefab: {fileID: 7274163566999194727, guid: f75521839ee490f448841cacdc58c7d3, type: 3}
+  coinOffset: {x: 0, y: 1}

@@ -9,16 +9,16 @@ public class DeathManager : MonoBehaviour
 
     public void ShowDeathScreen()
     {
-
+        Time.timeScale = 1;
         deathScreenCanvas.SetActive(true);
         Time.timeScale = 0;
 
     }
     public void RestartGame()
-    {
-        Time.timeScale = 1;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-
+    { 
+   
+       SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+       Time.timeScale = 1;
 
     }
     public void QuitGame()

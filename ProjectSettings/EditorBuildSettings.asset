@@ -17,4 +17,28 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Options.unity
     guid: e9c2a7aab429e8b44bc063f988162910
+  - enabled: 1
+    path: Assets/Scenes/Fish Guide Scenes/FG Page 1.unity
+    guid: d1331535c329a784883635766806e8aa
+  - enabled: 1
+    path: Assets/Scenes/Fish Guide Scenes/FG Page 2.unity
+    guid: 9c20c927b9937a84880f5b59b2e7b00a
+  - enabled: 1
+    path: Assets/Scenes/Fish Guide Scenes/FG Page 3.unity
+    guid: 4c519798a8a5e7a4ca5d252b00458ff0
+  - enabled: 1
+    path: Assets/Scenes/Fish Guide Scenes/FG Page 4.unity
+    guid: 263738c7f52441f43af5659dfd32baf8
+  - enabled: 1
+    path: Assets/Scenes/Fish Guide Scenes/FG Page 5.unity
+    guid: 1e41c0a003c97414486b6cd0e09a52a4
+  - enabled: 1
+    path: Assets/Scenes/Fish Guide Scenes/FG Page 6.unity
+    guid: d51e886b32431c74d828ba62a25cdc4a
+  - enabled: 1
+    path: Assets/Scenes/Fish Guide Scenes/FG Page 7.unity
+    guid: 23515735d48fa5344b2a020932a07785
+  - enabled: 1
+    path: Assets/Scenes/Fish Guide Scenes/FG Page 8.unity
+    guid: 4c678c4562c1d3f439077b8e534f1e51
   m_configObjects: {}

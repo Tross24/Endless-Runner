@@ -7,6 +7,12 @@ public class DeathManager : MonoBehaviour
 {
     public GameObject deathScreenCanvas;
 
+
+    private void Update()
+    {
+        Debug.Log(Time.timeScale);
+    }
+
     public void ShowDeathScreen()
     {
         Time.timeScale = 1;
@@ -16,9 +22,10 @@ public class DeathManager : MonoBehaviour
     }
     public void RestartGame()
     { 
-   
+        
        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
        Time.timeScale = 1;
+       Debug.Log(Time.timeScale);
 
     }
     public void QuitGame()

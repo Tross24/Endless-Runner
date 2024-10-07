@@ -50,7 +50,9 @@ public class TiButton : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(2);
         Time.timeScale = 1;
-
+        Debug.Log(Time.timeScale);
         //Takes you to title
     }
+
+    
 }

@@ -24,6 +24,7 @@ public class Playermovement2 : MonoBehaviour
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         sfxPlayer = GetComponent<AudioSource>();
+        Time.timeScale = 1f;
     }
 
     void Update()

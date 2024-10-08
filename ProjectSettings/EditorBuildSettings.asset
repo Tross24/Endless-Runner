@@ -44,4 +44,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Night.unity
     guid: b451ed90e11e48d429f5df4b46d48324
+  - enabled: 1
+    path: Assets/Scenes/Sunset.unity
+    guid: 1414d6ebd77fc94488b2c9e3dfb9af98
+  - enabled: 1
+    path: Assets/Scenes/Storm.unity
+    guid: e2223d7e7d331be45a880c528a07ae85
+  - enabled: 1
+    path: Assets/Scenes/Sun.unity
+    guid: e200a5cf239e6d74e9c8f4122411699e
+  - enabled: 1
+    path: Assets/Scenes/Title Load Variants/TS Night.unity
+    guid: 19238cdfce7645f4d9b903f5b113fbf8
+  - enabled: 1
+    path: Assets/Scenes/Title Load Variants/TS Sunset.unity
+    guid: bae712a243799d04798e8962f3bea70e
+  - enabled: 1
+    path: Assets/Scenes/Title Load Variants/TS Sun.unity
+    guid: 2b37c10310944b849b6d8ae663fa2536
+  - enabled: 1
+    path: Assets/Scenes/Title Load Variants/TS Storm.unity
+    guid: 2f0f8953b5d1b784a805acdc3ece6583
   m_configObjects: {}

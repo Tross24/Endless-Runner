@@ -95,4 +95,53 @@ public class TiButton : MonoBehaviour
 
         //Takes you to title
     }
+    public void Sunset()
+    {
+        SceneManager.LoadSceneAsync(13);
+        Time.timeScale = 1;
+
+        //Takes you to title
+    }
+    public void Storm()
+    {
+        SceneManager.LoadSceneAsync(14);
+        Time.timeScale = 1;
+
+        //Takes you to title
+    }
+    public void Sun()
+    {
+        SceneManager.LoadSceneAsync(15);
+        Time.timeScale = 1;
+
+        //Takes you to title
+    }
+    public void TGNight()
+    {
+        SceneManager.LoadSceneAsync(16);
+        Time.timeScale = 1;
+
+        //Takes you to title
+    }
+    public void TGSunset()
+    {
+        SceneManager.LoadSceneAsync(17);
+        Time.timeScale = 1;
+
+        //Takes you to title
+    }
+    public void TGSun()
+    {
+        SceneManager.LoadSceneAsync(18);
+        Time.timeScale = 1;
+
+        //Takes you to title
+    }
+    public void TGStorm()
+    {
+        SceneManager.LoadSceneAsync(19);
+        Time.timeScale = 1;
+
+        //Takes you to title
+    }
 }

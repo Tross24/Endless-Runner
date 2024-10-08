@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 8016653460811183523}
   - component: {fileID: 4702263068801235510}
   - component: {fileID: 1802088504053301276}
-  - component: {fileID: 2215096407250327513}
   m_Layer: 3
   m_Name: NewBoardwalk
   m_TagString: Clean Up
@@ -131,17 +130,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.7, y: 0.56}
   m_EdgeRadius: 0
---- !u!114 &2215096407250327513
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6040800543256038618}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ef10e9faa9156f44ab24c5ba3e73196, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  coinPrefab: {fileID: 7274163566999194727, guid: f75521839ee490f448841cacdc58c7d3, type: 3}
-  coinOffset: {x: 0, y: 5}

@@ -5,14 +5,11 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/Night.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Standard.unity
     guid: f07f8dec8d3fdda44a5aaab72a8e4a9a
   - enabled: 1
-    path: Assets/Scenes/Title Screen.unity
+    path: Assets/Scenes/Title Load Variants/Title Screen Standard.unity
     guid: 094c9d6fc833c3546a40924189a1efb5
   - enabled: 1
     path: Assets/Scenes/Options.unity
@@ -41,4 +38,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Fish Guide Scenes/FG Page 8.unity
     guid: 4c678c4562c1d3f439077b8e534f1e51
+  - enabled: 1
+    path: Assets/Scenes/Credits Screen.unity
+    guid: 080479d11c7e8a04081d4ae0fc26e534
+  - enabled: 1
+    path: Assets/Scenes/Night.unity
+    guid: b451ed90e11e48d429f5df4b46d48324
   m_configObjects: {}

@@ -88,4 +88,11 @@ public class TiButton : MonoBehaviour
 
         //Takes you to title
     }
+    public void Credits()
+    {
+        SceneManager.LoadSceneAsync(12);
+        Time.timeScale = 1;
+
+        //Takes you to title
+    }
 }

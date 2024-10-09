@@ -144,4 +144,8 @@ public class TiButton : MonoBehaviour
 
         //Takes you to title
     }
+    public void Close()
+    {
+        Application.Quit();
+    }
 }
